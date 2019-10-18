@@ -93,4 +93,11 @@ public class Fragment {
     public String toString(){
         return numerator+" / "+denominator;
     }
+
+    public MixedNumber getMixedNumber(){ // zlomok 23/10 zmenime na zmiesane cislo value 23/10 = 2 ,, modulo po deleni 23 a 10 ==3, zmiesane cislo bude (2 3/10)
+        int value= numerator/denominator;
+        Fragment f= new Fragment(numerator%denominator, denominator);
+        return new MixedNumber(value, f);
+
+    }
 }
