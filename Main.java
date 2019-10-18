@@ -30,6 +30,15 @@ public class Main {
         System.out.println("Nasobenie zlomkov " +newmath.mul(a, b));
         System.out.println("Delenie zlomkov " +newmath.div(a,b));
 
+        Rectangle rect=new Rectangle(12,5);
+        System.out.println("Diagonale: " + rect.calcDiagonale());
+        rect.print();
+        rect.setCharacter('$');
+        rect.setFill(true);
+        rect.showRectangle();
+        rect.setFill(false);
+        rect.showRectangle();
+
 
 
     }
