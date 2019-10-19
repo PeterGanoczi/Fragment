@@ -1,5 +1,7 @@
 package sk.itsovy.ganoczi.fragment;
 
+import java.sql.SQLOutput;
+
 public class Main {
 
     public static void main(String[] args) {
@@ -38,6 +40,14 @@ public class Main {
         rect.showRectangle();
         rect.setFill(false);
         rect.showRectangle();
+
+        Bank tatra=new Bank("tatra");
+
+        tatra.convert(100,"HUF");
+
+        System.out.println(tatra.loan(1000,4.5,10));
+
+
 
 
 
