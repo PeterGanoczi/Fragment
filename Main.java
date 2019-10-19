@@ -1,6 +1,5 @@
 package sk.itsovy.ganoczi.fragment;
 
-import java.sql.SQLOutput;
 
 public class Main {
 
