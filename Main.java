@@ -45,6 +45,7 @@ public class Main {
         tatra.convert(100,"HUF");
 
         System.out.println(tatra.loan(1000,4.5,10));
+        System.out.println(newmath.random4());
 
 
 
